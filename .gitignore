@@ -1,0 +1,26 @@
+# Repositorios externos descargados por el bootstrap
+/web/*/
+/api-auth/*/
+/cve-reproduction/*/
+/active-directory/*/
+/blue-team/*/
+/dfir/*/
+/reversing/*/
+/osint/*/
+/mobile-iot/*/
+/cloud-devsecops/*/
+
+# Evidencias potencialmente sensibles o voluminosas
+/datasets/*
+/vms/*
+/reports/*
+/logs/*
+
+# Secretos y configuraciones locales
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
